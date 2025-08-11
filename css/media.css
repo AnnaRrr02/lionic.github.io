@@ -1,0 +1,401 @@
+@media (max-width: 1200px) {
+.form__input,
+.form__select { 
+    width: 100%;
+}
+}
+
+@media (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
+
+    .burger {
+        position: relative;
+        border: 1px solid currentColor;
+        border-radius: 3px;
+        display: block;
+        width: 40px;
+        height: 40px;
+        color: #3172B9;
+    }
+
+    .burger__line {
+        position: absolute;
+        left: 50%;
+        width: 20px;
+        height: 2px;
+        border-radius: inherit;
+        background-color: currentColor;
+        transform: translateX(-50%);
+    }
+    .burger__line:nth-child(1) {
+        top: 13px;
+    }
+
+    .burger__line:nth-child(2) {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burger__line:nth-child(3) {
+        bottom: 13px;
+    }
+
+    .header__btn {
+        margin-right: 7px;
+        padding: 11px 21px;
+    }
+
+    .hero__content {
+        max-width: 75%;
+    }
+
+    .services__items {
+        --offsets: 2;
+    }
+
+    .clients__list {
+        --offsets: 1;
+    }
+    
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__left {
+        margin-bottom: var(--gap);
+    }
+}
+
+@media (max-width: 768px) {
+    .services__items {
+        --offsets: 1;
+    }
+
+    .blog__link {
+        flex-direction: column;
+
+    }
+
+    .blog__image {
+        width: 100%;
+    }
+
+    .form {
+        padding: 0;
+    }
+
+    .footer__nav .nav__item:not(:last-child) {
+    margin-right: 18px;
+}
+}
+
+@media (max-width: 576px) {
+    .clients__list {
+        --offsets: 0;
+    }
+
+    .contacts__list {
+        --offsets: 0;
+        gap: 30px;
+    }
+
+    .footer__right {
+        flex-direction: column;
+    }
+
+    .header__logo {
+        width: 80px;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .hero__content  {
+        max-width: 100%;
+    }
+
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 64px;
+    }
+
+    .hero__title {
+        margin-bottom: 16px;
+    }
+
+    .hero__descr {
+        margin-bottom: 16px;
+    }
+
+    .hero__wrapper {
+        width: 100%;
+    }
+
+    .hero__btn {
+        width: 100%;
+    }
+
+    .hero__secure {
+        margin-bottom: 0;
+    }
+
+    .section-offset {
+        padding: 0;
+    }
+
+    .services__title {
+        margin-bottom: 18px;
+        text-align: left ;  
+    }
+
+    .services__descr {
+        text-align: left;
+        line-height: 22px;
+    }
+
+    .section-descr {
+        margin-bottom: 35px;
+    }
+
+    .services__container {
+        margin-bottom: 60px;
+    }
+
+    .services {
+        margin-bottom: 60px;
+    }
+
+    :root {
+        --gap: 15px;
+    }
+
+    .services__items {
+        row-gap: 20px;
+    }
+
+    .item__icon {
+        height: 42px;
+        margin-bottom: 15px;
+    }
+    
+    .item {
+        padding: 15px;
+        min-height: 222px;
+    }
+
+    .item__title {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    
+    .item__descr {
+        font-size: 12px;
+    }
+
+    .articles__list {
+        --offsets: 0;
+    }
+
+    .blog__link {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .blog {
+        min-height: 191px;
+    }
+
+    .articles__title {
+        margin-bottom: 11px;
+    }
+
+    .blog__image {
+        flex-shrink: 0;
+        width: 86px;
+        height: 100%;
+    }
+
+    .blog__text {
+        padding: 15px 14px;
+    }
+
+    .blog__title {
+        margin-bottom: 0;
+    }
+
+    .articles__item {
+        margin-bottom: 0;
+    }
+
+    .articles__container {
+        margin-bottom: 60px;
+    }
+
+    .articles {
+        margin-bottom: 60px;
+    }
+
+    .clients__title {
+        margin-bottom: 15px;
+    }
+
+    .clients__item {
+        padding: 18px;
+    }
+
+    .clients__name {
+        margin-bottom: 0;
+    }
+
+    .clients__avatar {
+        width: 69px;
+    }
+
+    .clients__container {
+        margin-bottom: 57px;
+    }
+
+    .clients {
+        margin-bottom: 60px;
+    }
+
+    .contacts__title {
+        margin-bottom: 15px;
+    }
+
+    .contacts__caption {
+        margin-bottom: 1px;
+    }
+
+    .contacts__container {
+        margin-bottom: 60px;
+    }
+
+    .contacts {
+        margin-bottom: 60px;
+    }
+
+    .join-us__title {
+        text-align: left;
+    }
+
+    .join-us__descr {
+        text-align: left;
+    }
+
+    .form__top {
+        flex-direction: column;
+        margin-bottom: 17px;
+    }
+
+    .form__left {
+        width: 100%;
+        margin-bottom: 17px;
+    }
+
+    .form__right {
+        width: 100%;
+    }
+
+    .form__input,
+    .form__select {
+        padding-left: 19px;
+    }
+
+    .form__textarea {
+        padding-left: 20px;
+        height: 240px;
+    }
+
+    .form__btn {
+        width: 100%;
+        margin-bottom: 17px;
+    }
+
+    .form__wrapper {
+        width: 100%;
+    }
+
+    .join-us__container {
+        margin-bottom: 60px;
+    }
+
+    .footer__container {
+        flex-direction: column-reverse;
+    }
+
+    .footer__nav .nav__link {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .footer__nav .nav__list {
+        flex-wrap: wrap;
+        gap: 15px 30px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .footer__nav .nav__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer__nav {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer__right {
+        align-items: flex-start;
+        margin-bottom: 33px;
+    }
+
+    .footer__left {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer__logo {
+        margin-bottom: 13px;
+        width: 80px;
+    }
+
+    .footer__copy {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-top: 19px;
+
+
+    }
+    .footer__copy::before {
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 0;
+        width: calc(100% + 30px);
+        height: 1px;
+        background-color: #c4c4c4;
+    }
+
+}
+/* Для разрешения 2K и 4K */
+@media only screen and (min-width: 2700px) {
+  html {
+    zoom: 200%
+  }
+}
+
+/* Для разрешения 8K */
+@media only screen and (min-width: 8000px) {
+  html {
+    zoom: 400%
+  }
+} 
